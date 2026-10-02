@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-paper text-ink-800;
+    background-image: radial-gradient(ellipse at 92% 0%, rgba(226, 232, 240, 0.55), transparent 34rem);
+  }
+  ::selection {
+    @apply bg-brass-100 text-ink-800;
+  }
+  button, a, input {
+    -webkit-tap-highlight-color: transparent;
+  }
+  :focus-visible {
+    outline: 3px solid rgba(16, 185, 129, .5);
+    outline-offset: 2px;
+  }
+}
+
+@layer utilities {
+  .scrollbar-thin::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    @apply bg-ink-100 rounded-full;
+  }
+  .profile-orb {
+    position: absolute;
+    border-radius: 9999px;
+    pointer-events: none;
+  }
+  .profile-orb-one {
+    width: 34rem;
+    height: 34rem;
+    right: -12rem;
+    top: 8%;
+    background: radial-gradient(circle, rgba(245, 158, 11, .17), rgba(245, 158, 11, 0) 68%);
+  }
+  .profile-orb-two {
+    width: 42rem;
+    height: 42rem;
+    left: -18rem;
+    bottom: -38%;
+    background: radial-gradient(circle, rgba(16, 185, 129, .13), rgba(16, 185, 129, 0) 68%);
+  }
+}

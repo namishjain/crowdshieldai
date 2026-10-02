@@ -1,0 +1,16 @@
+weights:
+  density: 0.40
+  flow: 0.25
+  capacity: 0.20
+  evacuation_time: 0.15
+thresholds:
+  safe: 30
+  warning: 60
+  high: 80
+normalization:
+  # Per-view demo reference values; not physical density calibrations.
+  density_reference_people: 42
+  flow_reference_crossings_per_minute: 30
+  evacuation_reference_minutes: 12
+  maximum_forecast_slope_fraction_of_capacity_per_minute: 0.01
+  use_physical_density: false

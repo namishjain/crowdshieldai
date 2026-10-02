@@ -1,0 +1,64 @@
+{
+  "dataset": "WILDTRACK",
+  "source": "https://www.epfl.ch/labs/cvlab/data/data-wildtrack/",
+  "source_cameras_are_synchronized": true,
+  "excerpt_seconds_requested": 15,
+  "local_total_bytes": 3374093,
+  "local_total_limit_bytes": 2000000000,
+  "cameras": {
+    "camera_01": {
+      "file": "data/videos/camera_01.mp4",
+      "size_bytes": 489802,
+      "width": 640,
+      "height": 360,
+      "fps": 10.0,
+      "frames": 146,
+      "duration_seconds": 14.6
+    },
+    "camera_02": {
+      "file": "data/videos/camera_02.mp4",
+      "size_bytes": 720352,
+      "width": 640,
+      "height": 360,
+      "fps": 10.0,
+      "frames": 146,
+      "duration_seconds": 14.6
+    },
+    "camera_03": {
+      "file": "data/videos/camera_03.mp4",
+      "size_bytes": 691808,
+      "width": 640,
+      "height": 360,
+      "fps": 10.0,
+      "frames": 148,
+      "duration_seconds": 14.8
+    },
+    "camera_04": {
+      "file": "data/videos/camera_04.mp4",
+      "size_bytes": 413429,
+      "width": 640,
+      "height": 360,
+      "fps": 10.0,
+      "frames": 149,
+      "duration_seconds": 14.9
+    },
+    "camera_05": {
+      "file": "data/videos/camera_05.mp4",
+      "size_bytes": 462613,
+      "width": 640,
+      "height": 360,
+      "fps": 10.0,
+      "frames": 145,
+      "duration_seconds": 14.5
+    },
+    "camera_06": {
+      "file": "data/videos/camera_06.mp4",
+      "size_bytes": 596089,
+      "width": 640,
+      "height": 360,
+      "fps": 10.0,
+      "frames": 145,
+      "duration_seconds": 14.5
+    }
+  }
+}

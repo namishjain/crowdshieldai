@@ -1,0 +1,71 @@
+{
+  "set": "religious",
+  "items": [
+    {
+      "camera": "camera_01",
+      "source_file": "Ratha Jatra 2024 at Bypass, Bhadrak 11.webm",
+      "author": "Sangram Keshari Senapati (Ssgapu22)",
+      "license": "CC BY-SA 4.0",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Ratha_Jatra_2024_at_Bypass,_Bhadrak_11.webm",
+      "source_video_derivative_height": 360,
+      "output": "camera_01.mp4",
+      "output_bytes": 304027,
+      "transformation": "Trimmed to first 15 seconds; scaled and padded to 640x360 at 10 fps; audio removed; encoded H.264 MP4."
+    },
+    {
+      "camera": "camera_02",
+      "source_file": "Ratha Jatra at Koksara, Kalahandi.webm",
+      "author": "Liman Chandrakar",
+      "license": "CC BY-SA 4.0",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Ratha_Jatra_at_Koksara,_Kalahandi.webm",
+      "source_video_derivative_height": 360,
+      "output": "camera_02.mp4",
+      "output_bytes": 186809,
+      "transformation": "Trimmed to first 15 seconds; scaled and padded to 640x360 at 10 fps; audio removed; encoded H.264 MP4."
+    },
+    {
+      "camera": "camera_03",
+      "source_file": "Ganga Aarti at Rishikesh.webm",
+      "author": "Sukh1810",
+      "license": "CC BY-SA 4.0",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Ganga_Aarti_at_Rishikesh.webm",
+      "source_video_derivative_height": 360,
+      "output": "camera_03.mp4",
+      "output_bytes": 123946,
+      "transformation": "Trimmed to first 15 seconds; scaled and padded to 640x360 at 10 fps; audio removed; encoded H.264 MP4."
+    },
+    {
+      "camera": "camera_04",
+      "source_file": "Village procession during Kali Puja, Puri, Odisha, India.webm",
+      "author": "Sadānanda Mahapatra",
+      "license": "CC BY-SA 4.0",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Village_procession_during_Kali_Puja,_Puri,_Odisha,_India.webm",
+      "source_video_derivative_height": 360,
+      "output": "camera_04.mp4",
+      "output_bytes": 407271,
+      "transformation": "Trimmed to first 15 seconds; scaled and padded to 640x360 at 10 fps; audio removed; encoded H.264 MP4."
+    },
+    {
+      "camera": "camera_05",
+      "source_file": "Ganga aarti at Varanasi.webm",
+      "author": "Kasyap",
+      "license": "CC0 1.0",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Ganga_aarti_at_Varanasi.webm",
+      "source_video_derivative_height": 360,
+      "output": "camera_05.mp4",
+      "output_bytes": 518938,
+      "transformation": "Trimmed to first 15 seconds; scaled and padded to 640x360 at 10 fps; audio removed; encoded H.264 MP4."
+    },
+    {
+      "camera": "camera_06",
+      "source_file": "Ganga Aarti - Sacred Ritual on the Banks of River Ganga 05.webm",
+      "author": "Shoot stufz",
+      "license": "CC BY-SA 4.0",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Ganga_Aarti_-_Sacred_Ritual_on_the_Banks_of_River_Ganga_05.webm",
+      "source_video_derivative_height": 360,
+      "output": "camera_06.mp4",
+      "output_bytes": 72772,
+      "transformation": "Trimmed to first 15 seconds; scaled and padded to 640x360 at 10 fps; audio removed; encoded H.264 MP4."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+model:
+  name: YOLOv8n
+  weights: models/yolov8n.pt
+  confidence: 0.25
+  iou: 0.45
+  image_size: 640
+  device: auto
+  inference_interval_seconds: 1.0
+  person_class_id: 0
+  tracker: bytetrack.yaml
+video:
+  root: data/videos
+  sample_limit_mb: 2000
+  browser_loop: true
+cameras:
+  - {id: camera_01, source_id: "1sGUnExmJM2_tFuBd9LNlexf0LN2m0_c-", zone_id: VIEW_01, graph_node: ZONE_WEST, zone: Courtyard View 01, roi_polygon: [[0.0, 0.0], [1.0, 0.0], [1.0, 1.0], [0.0, 1.0]], line: [[0.10, 0.55], [0.90, 0.55]], direction_positive: IN}
+  - {id: camera_02, source_id: "1OnaRN2qYhZ2n4rSaNZQJzQPd1Cl2fluk", zone_id: VIEW_02, graph_node: CENTRAL, zone: Courtyard View 02, roi_polygon: [[0.0, 0.0], [1.0, 0.0], [1.0, 1.0], [0.0, 1.0]], line: [[0.10, 0.55], [0.90, 0.55]], direction_positive: IN}
+  - {id: camera_03, source_id: "1I7ARLVVfZqdZTbYG_TPEfDt1Bc8N35Lb", zone_id: VIEW_03, graph_node: ZONE_EAST, zone: Courtyard View 03, roi_polygon: [[0.0, 0.0], [1.0, 0.0], [1.0, 1.0], [0.0, 1.0]], line: [[0.10, 0.55], [0.90, 0.55]], direction_positive: IN}
+  - {id: camera_04, source_id: "1sXn70X-bV_YGPv43r4-iMtK_Js09eUVB", zone_id: VIEW_04, graph_node: ZONE_SOUTH, zone: Courtyard View 04, roi_polygon: [[0.0, 0.0], [1.0, 0.0], [1.0, 1.0], [0.0, 1.0]], line: [[0.10, 0.55], [0.90, 0.55]], direction_positive: IN}
+  - {id: camera_05, source_id: "1ExTyezMWqmLefi2kJTQwYxZivJuag7G5", zone_id: VIEW_05, graph_node: ZONE_NORTH, zone: Courtyard View 05, roi_polygon: [[0.0, 0.0], [1.0, 0.0], [1.0, 1.0], [0.0, 1.0]], line: [[0.10, 0.55], [0.90, 0.55]], direction_positive: IN}
+  - {id: camera_06, source_id: "1NM4kNjdyiC6JioOT90s9vFmMUkeSnV0z", zone_id: VIEW_06, graph_node: ZONE_WEST, zone: Courtyard View 06, roi_polygon: [[0.0, 0.0], [1.0, 0.0], [1.0, 1.0], [0.0, 1.0]], line: [[0.10, 0.55], [0.90, 0.55]], direction_positive: IN}

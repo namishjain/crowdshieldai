@@ -1,0 +1,39 @@
+venue:
+  id: eth_courtyard_demo
+  name: ETH Zurich Courtyard (WILDTRACK)
+  topology_status: illustrative_demo_graph
+  count_aggregation: max_per_view
+  zones:
+    - {id: VIEW_01, name: Courtyard View 01, camera_id: camera_01, capacity: 42, node: ZONE_WEST}
+    - {id: VIEW_02, name: Courtyard View 02, camera_id: camera_02, capacity: 42, node: CENTRAL}
+    - {id: VIEW_03, name: Courtyard View 03, camera_id: camera_03, capacity: 42, node: ZONE_EAST}
+    - {id: VIEW_04, name: Courtyard View 04, camera_id: camera_04, capacity: 42, node: ZONE_SOUTH}
+    - {id: VIEW_05, name: Courtyard View 05, camera_id: camera_05, capacity: 42, node: ZONE_NORTH}
+    - {id: VIEW_06, name: Courtyard View 06, camera_id: camera_06, capacity: 42, node: ZONE_WEST}
+  nodes:
+    - {id: ENTRY_A, type: entry, name: Approach A}
+    - {id: ZONE_WEST, type: zone, name: West Walk}
+    - {id: CENTRAL, type: zone, name: Courtyard Centre}
+    - {id: ZONE_EAST, type: zone, name: East Walk}
+    - {id: ZONE_SOUTH, type: zone, name: South Walk}
+    - {id: ZONE_NORTH, type: zone, name: North Walk}
+    - {id: EXIT_A, type: exit, name: Exit A}
+    - {id: EXIT_B, type: exit, name: Exit B}
+    - {id: EXIT_C, type: exit, name: Emergency Exit C}
+  edges:
+    - {from: ENTRY_A, to: ZONE_WEST, distance_m: 35, capacity_per_minute: 45, gate: GATE_A}
+    - {from: ZONE_WEST, to: CENTRAL, distance_m: 40, capacity_per_minute: 65}
+    - {from: CENTRAL, to: ZONE_EAST, distance_m: 35, capacity_per_minute: 60}
+    - {from: ZONE_EAST, to: EXIT_B, distance_m: 32, capacity_per_minute: 48, gate: GATE_D}
+    - {from: CENTRAL, to: ZONE_SOUTH, distance_m: 38, capacity_per_minute: 58}
+    - {from: ZONE_SOUTH, to: EXIT_A, distance_m: 30, capacity_per_minute: 50, gate: GATE_B}
+    - {from: CENTRAL, to: ZONE_NORTH, distance_m: 44, capacity_per_minute: 52}
+    - {from: ZONE_NORTH, to: EXIT_C, distance_m: 26, capacity_per_minute: 42, gate: GATE_C}
+  gates:
+    GATE_A: OPEN
+    GATE_B: OPEN
+    GATE_C: OPEN
+    GATE_D: RESTRICTED
+  feeding_gates:
+    ZONE_WEST: GATE_A
+  exits: [EXIT_A, EXIT_B, EXIT_C]

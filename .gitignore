@@ -1,0 +1,15 @@
+.venv/
+node_modules/
+frontend/.next/
+frontend/node_modules/
+models/*.pt
+/yolov8n.pt
+data/videos/*.mp4
+data/videos/*/*.mp4
+data/videos/*.part.mp4
+work/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+*.log

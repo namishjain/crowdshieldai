@@ -1,0 +1,9 @@
+weights:
+  distance: 1.0
+  congestion: 0.75
+  risk: 1.2
+  travel_time: 0.2
+assumptions:
+  walking_speed_mps: 1.1
+  evacuation_exit_capacity_people_per_minute: 45
+  maximum_route_risk: 80

@@ -1,0 +1,16 @@
+dataset: WILDTRACK
+venue: ETH Zurich courtyard
+official_source: https://www.epfl.ch/labs/cvlab/data/data-wildtrack/
+source_format: "1920x1080, synchronized camera recordings; official dataset page reports 60 fps (annotations are at 2 fps)"
+local_excerpt:
+  duration_seconds: 15
+  output: "H.264, 640x360 max, 10 fps, audio removed"
+  total_size_limit_bytes: 2000000000
+  note: "Each clip is a very short start-of-file excerpt re-encoded locally. Original camera files are about 7.4 GB each and are never downloaded in full."
+cameras:
+  - {camera_id: camera_01, source_id: "1sGUnExmJM2_tFuBd9LNlexf0LN2m0_c-", source_name: "WILDTRACK cam1", role: "fixed courtyard viewpoint 1; exact gate coverage not calibrated"}
+  - {camera_id: camera_02, source_id: "1OnaRN2qYhZ2n4rSaNZQJzQPd1Cl2fluk", source_name: "WILDTRACK cam2", role: "fixed courtyard viewpoint 2; exact gate coverage not calibrated"}
+  - {camera_id: camera_03, source_id: "1I7ARLVVfZqdZTbYG_TPEfDt1Bc8N35Lb", source_name: "WILDTRACK cam3", role: "fixed courtyard viewpoint 3; exact gate coverage not calibrated"}
+  - {camera_id: camera_04, source_id: "1sXn70X-bV_YGPv43r4-iMtK_Js09eUVB", source_name: "WILDTRACK cam4", role: "fixed courtyard viewpoint 4; exact gate coverage not calibrated"}
+  - {camera_id: camera_05, source_id: "1ExTyezMWqmLefi2kJTQwYxZivJuag7G5", source_name: "WILDTRACK cam5", role: "fixed courtyard viewpoint 5; exact gate coverage not calibrated"}
+  - {camera_id: camera_06, source_id: "1NM4kNjdyiC6JioOT90s9vFmMUkeSnV0z", source_name: "WILDTRACK cam6", role: "fixed courtyard viewpoint 6; exact gate coverage not calibrated"}

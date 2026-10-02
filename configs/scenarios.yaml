@@ -1,0 +1,9 @@
+scenarios:
+  - {id: close_gate_a, label: Close Gate A, type: close_gate, target: GATE_A}
+  - {id: open_gate_d, label: Open alternate Gate D, type: open_gate, target: GATE_D}
+  - {id: block_exit_b, label: Block Exit B, type: block_exit, target: EXIT_B}
+  - {id: emergency_zone_c, label: Emergency in Zone C, type: emergency, target: CENTRAL}
+  - {id: medical_zone_d, label: Medical emergency in Zone D, type: medical, target: ZONE_EAST}
+  - {id: power_failure, label: Power failure (demo), type: power_failure, target: CENTRAL}
+  - {id: heavy_crowd, label: Heavy crowd buildup, type: crowd_surge, target: CENTRAL}
+  - {id: heavy_rain, label: Heavy rain (demo), type: heavy_rain, target: CENTRAL}

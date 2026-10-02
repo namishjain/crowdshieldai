@@ -1,0 +1,16 @@
+cooldown_seconds: 6
+event_cooldowns_seconds:
+  ROUTE_CHANGED: 30
+  RECOVERY: 15
+  PREDICTED_CRITICAL_STATE: 30
+  SIMULATION_RUN: 2
+thresholds:
+  warning_trend_people_per_minute: 0.5
+  high_trend_people_per_minute: 1.0
+  critical_capacity_percent: 100
+  route_risk_percent: 65
+resource_rules:
+  security_on_high: true
+  medical_on_critical: true
+  security_team_count: 2
+  medical_team_count: 1

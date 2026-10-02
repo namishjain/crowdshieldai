@@ -1,0 +1,65 @@
+{
+  "set": "railway_india",
+  "items": [
+    {
+      "camera": "camera_01",
+      "source_file": "Train is arriving to Aurangabad Railway Station, Aurangabad, India.webm",
+      "author": "Maciek Roszkowski",
+      "license": "CC BY 3.0",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Train_is_arriving_to_Aurangabad_Railway_Station,_Aurangabad,_India.webm",
+      "output": "camera_01.mp4",
+      "output_bytes": 313240,
+      "transformation": "Trimmed to first 15 seconds; scaled and padded to 640x360 at 10 fps; audio removed; encoded H.264 MP4."
+    },
+    {
+      "camera": "camera_02",
+      "source_file": "Ludhiana Punjab India Railway station 24 09 2016 Rajdani Express train Pulling into Station WAP-5.webm",
+      "author": "Sohan Lal Saini (Sohan Rahi)",
+      "license": "CC BY 3.0",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Ludhiana_Punjab_India_Railway_station_24_09_2016_Rajdani_Express_train_Pulling_into_Station_WAP-5.webm",
+      "output": "camera_02.mp4",
+      "output_bytes": 383280,
+      "transformation": "Trimmed to first 15 seconds; scaled and padded to 640x360 at 10 fps; audio removed; encoded H.264 MP4."
+    },
+    {
+      "camera": "camera_03",
+      "source_file": "12479 Suryanagari Express (from Jodhpur to Bandra) passing Basni railway station, -12 July 2022.webm",
+      "author": "Vijay Singh Choudhary",
+      "license": "CC BY 3.0",
+      "source_page": "https://commons.wikimedia.org/wiki/File:12479_Suryanagari_Express_(from_Jodhpur_to_Bandra)_passing_Basni_railway_station,_-12_July_2022.webm",
+      "output": "camera_03.mp4",
+      "output_bytes": 88278,
+      "transformation": "Trimmed to first 15 seconds; scaled and padded to 640x360 at 10 fps; audio removed; encoded H.264 MP4."
+    },
+    {
+      "camera": "camera_04",
+      "source_file": "Diesel Engine connecting to a Train (Coupling).webm",
+      "author": "Kartik Singhal",
+      "license": "CC BY 3.0",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Diesel_Engine_connecting_to_a_Train_(Coupling).webm",
+      "output": "camera_04.mp4",
+      "output_bytes": 281007,
+      "transformation": "Trimmed to first 15 seconds; scaled and padded to 640x360 at 10 fps; audio removed; encoded H.264 MP4."
+    },
+    {
+      "camera": "camera_05",
+      "source_file": "Arrival of Bhagat Ki kothi Exp at RKMP.webm",
+      "author": "Suyash Dwivedi",
+      "license": "CC BY-SA 4.0",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Arrival_of_Bhagat_Ki_kothi_Exp_at_RKMP.webm",
+      "output": "camera_05.mp4",
+      "output_bytes": 155957,
+      "transformation": "Trimmed to first 15 seconds; scaled and padded to 640x360 at 10 fps; audio removed; encoded H.264 MP4."
+    },
+    {
+      "camera": "camera_06",
+      "source_file": "Arrival of Bilaspur-Bhagat ki Kothi Express at Rani Kaplapati Railway Station.webm",
+      "author": "Suyash Dwivedi",
+      "license": "CC BY-SA 4.0",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Arrival_of_Bilaspur-Bhagat_ki_Kothi_Express_at_Rani_Kaplapati_Railway_Station.webm",
+      "output": "camera_06.mp4",
+      "output_bytes": 377546,
+      "transformation": "Trimmed to first 15 seconds; scaled and padded to 640x360 at 10 fps; audio removed; encoded H.264 MP4."
+    }
+  ]
+}
